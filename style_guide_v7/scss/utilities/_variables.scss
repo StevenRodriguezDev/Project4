@@ -1,9 +1,38 @@
-//button colors
-// $btns: (
-//     'default':#927bc1,
-//     'success':#fd7856,
-//     'error':hsl(357, 67%, 68%),
-//     'warning': #63cc82,
-//     'info':#51ddfc,
+//============
+// variables 
+//============
+    // Colors
+    $white: #fff;
+    $grey:#777;
+    $jazzyjade: #58e1c1;
+   
 
-// )
+    //theme colors
+      $themes: (
+            '1': #927bc1,
+            '2': #fd7856,
+            '3':#deb2ee,
+            '4':#7ee6fd,
+            '5':#88d9a0,
+            '6':#4da2bb,
+            '7':#ec9fa3,
+            '8':#fd9f85,
+            '9':#e4757a,
+            '10':#63cc82,
+            '11':#51ddfc,
+            '12':#80e8d1,  
+    );
+
+
+    //button colors
+    $button-colors: (
+        'default':#927bc1,
+        'success':#fd7856,
+        'error':hsl(357, 67%, 68%),
+        'warning': #63cc82,
+        'info':#51ddfc,
+    );
+
+    // media queries breakpoints
+    $brk-pt: 768px;
+    
